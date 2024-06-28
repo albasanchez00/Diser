@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Bloque Imagen Menú*/
+.banner {
+    width: 100px;
+    height: 90px;
+}
+
+.banner img {
+    width: 90px;
+    height: 80px;
+}
+
+
+/* Bloque Menú */
+.seccion_menu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+}
+
+.bloque_menu {
+    padding: 0 50px;
+}
+
+.bloque_menu ul {
+    display: flex;
+    justify-content: left;
+}
+
+.bloque_menu li {
+    padding: 15px;
+}
+
+.bloque_menu a {
+    color: #f7a800;
+}
+
+
+/* Seccion Banner */
+.seccion_banner {
+    width: 100%;
+    height: 600px;
+}
+
+.img img {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 590px;
+}
+
+/* Seccion Autoconsumo */
+.seccion_autoconsumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    height: 200px;
+    padding: 20px 0;
+}
+
+.titulo_2, .titulo_3{
+    padding-bottom: 35px;
+}
+
+/* Salto de Linea */
+.salto_linea{
+    width: 100%;
+    height: 15px;
+}
+
+hr {
+    margin: 15px 0;
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(255,235,0,1) 71%, rgba(123,230,6,1) 100%);}
+
+
+/* Seccion Nuestros Servicios */
+.seccion_servicios{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    
+}
+.seccion_servicios div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicio_1, .servicio_2, .servicio_3{
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+
+
+/* Seccion Proyectos */
+.seccion_proyectos{
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.seccion_proyectos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.proyectos div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.seccion_proyectos picture{
+    width: 100%;
+    height: 200px;
+}
+
+
+.img_servicio_3, .img_servicio_1, .img_servicio_2{
+    width: 80%;
+    height: 150px;
+}
+
+
+/* Seccion contacto */
+.seccion_titulo_contacto{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+}
+.seccion_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(255,235,0,1) 71%, rgba(123,230,6,1) 100%);
+}
+#nombre, #telefono, #email{
+    border:none;
+    background:none; 
+   
+    border-bottom: 1px solid black;
+}
+.formulario input{
+    background:none; 
+    width: 400px;
+    height: 30px;
+}
+
+
+
+/* Seccion Footer */
+.footer_1{
+    width: 100%;
+    height: 30px;
+}
+.footer2{
+    padding-top: 100px;
+    width: 100%;
+    height: 30px;
+}
+.footer_1 img{
+    width: 100%;
+    height: 35px;
+}
+.img_footer2{
+    width: 100%;
+    height: 35px;
+}
+
+
+
+/* *************************************************** */
+/* Pagina Consumo energético */
+.seccion_eficiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.seccion_eficiencia picture{
+    width: 50%;
+    height: 400px;
+}
+.img_tabla{
+    width: 100%;
+    height: 380px;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.p{}
